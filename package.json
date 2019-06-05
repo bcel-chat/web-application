@@ -1,0 +1,52 @@
+{
+  "name": "bcelchatv2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
+    "animate.css": "^3.7.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "buefy": "^0.7.0",
+    "deepstream.io": "^3.1.2",
+    "deepstream.io-client-js": "^2.3.0",
+    "file-saver": "^2.0.1",
+    "lodash.debounce": "^4.0.8",
+    "register-service-worker": "^1.5.2",
+    "script-loader": "^0.7.2",
+    "vue": "^2.6.6",
+    "vue-async-computed": "^3.6.1",
+    "vue-lodash": "^2.0.0",
+    "vue-moment": "^4.0.0",
+    "vue-router": "^3.0.1",
+    "vue-signature-pad": "^1.1.9-beta.1",
+    "vuejs-datepicker": "^1.5.4",
+    "vuelidate": "^0.7.4",
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "^2.5.4",
+    "xlsx": "^0.14.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.3",
+    "@vue/cli-plugin-eslint": "^3.0.3",
+    "@vue/cli-plugin-pwa": "^3.0.3",
+    "@vue/cli-plugin-unit-mocha": "^3.0.3",
+    "@vue/cli-service": "^3.0.3",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.1.2",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}

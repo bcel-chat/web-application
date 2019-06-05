@@ -1,0 +1,65 @@
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+
+$f01: Phetsarath OT, Arial, sans-serif;
+$f02: "Segoe UI", "Helvetica Neue", "Helvetica", "Lucida Grande", Arial, "Ubuntu", "Cantarell", "Fira Sans", sans-serif;
+
+div {
+    display: block;
+}
+
+div, span, ul, li {
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body>*{
+    font-family: $f01;
+    input{
+        font-family: $f01;
+    }
+}
+
+// Set your colors
+$primary: #f75e5e;
+$primary-invert: findColorInvert($primary);
+$twitter: #4099FF;
+$twitter-invert: findColorInvert($twitter);
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$colors: (
+    "white": ($white, $black),
+    "black": ($black, $white),
+    "light": ($light, $light-invert),
+    "dark": ($dark, $dark-invert),
+    "primary": ($primary, $primary-invert),
+    "info": ($info, $info-invert),
+    "success": ($success, $success-invert),
+    "warning": ($warning, $warning-invert),
+    "danger": ($danger, $danger-invert),
+    "twitter": ($twitter, $twitter-invert)
+);
+
+// Links
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+html, body {
+
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    color: #4b4b4b;
+}

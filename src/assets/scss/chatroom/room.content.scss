@@ -1,0 +1,87 @@
+@import '../colors';
+.room-container{
+   box-sizing: border-box;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   height: 100%;
+   overflow-x: hidden;
+   overflow-y: scroll;
+   position: absolute;
+   top: 0;
+   transition: background .3s ease-out .1s;
+   width: 100%;
+   z-index: 100;   
+   padding-bottom: 0.750em;
+   .spacer{
+      -webkit-flex: 1 1 auto;
+      flex: 1 1 auto;
+      min-height: 12px;
+   }
+
+   ._bb_cnnr{
+      -webkit-flex: 0 0 auto;
+      flex: 0 0 auto;
+      span{
+         ._298R6 {
+            right: 20px;
+            border-radius: 50%;
+            background-color: white;
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+            position: fixed;
+            bottom: 80px;
+            z-index: 200;
+            width: 42px;
+            height: 42px;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            .FJVFR {
+               left: -5px;
+               position: absolute;
+               top: -5px;
+               .OUeyt {
+                  background-color: $primary;
+                  border-radius: 12px;
+                  padding: 0px 5px 0px 5px;
+                  text-align: center;
+                  color: #fff;
+                  display: inline-block;
+                  font-size: 12px;
+                  font-weight: 500;
+                  height: 19px;
+                  line-height: 19px;
+                  min-width: 9px;
+                  vertical-align: top;
+            }
+            }
+         }
+         [role="button"] {
+               cursor: pointer;
+         }
+     }
+
+      .__bb_cnn{
+         display: flex;
+         flex-direction: column;
+         ._bb_bx{
+            padding-left: 9%;
+            padding-right: 9%;
+            position: relative;
+            flex: 1 1 auto;
+         }
+         .p-12{
+            margin-top: 0.750em;
+         }
+         .p-4{
+            margin-top: 0.150em;
+         }
+      }
+   }
+
+   
+}

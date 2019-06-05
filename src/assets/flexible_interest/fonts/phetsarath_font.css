@@ -1,0 +1,11 @@
+@font-face {
+font-family: 'Phetsarath_OT'; 
+src: url('phetsarath_ot.eot'); 
+src: url('phetsarath_ot.eot?#iefix') format('embedded-opentype'), 
+url('phetsarath_ot.woff2') format('woff2'), 
+url('phetsarath_ot.woff') format('woff'), 
+url('phetsarath_ot.ttf') format('truetype'),
+url('phetsarath_ot.svg#Phetsarath_OT') format('svg'); 
+font-weight: normal;
+font-style: normal; 
+}

@@ -1,0 +1,102 @@
+$text: rgb(120, 118, 121);
+$shadow: rgba(0,0,0,0.75);
+
+.login-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    //background: rgba(255, 255, 255, 0.6);
+    background: linear-gradient(rgba(70,57,241,.8),rgba(255,255,255,.8)), url("../../assets/img/login_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    .login-content {
+        overflow:hidden;
+        display: flex;
+        width: 800px;
+        border-radius: 30px;
+       @media (min-width: 760px) {
+        height: 500px;
+        -webkit-box-shadow: 20px 20px 37px -23px $shadow;
+        -moz-box-shadow: 20px 20px 37px -23px $shadow;
+        box-shadow: 20px 20px 37px -23px $shadow;
+       }
+        .login-part-01 {
+            position: relative;
+            display: none;
+            @media (min-width: 760px) {
+                display: flex;
+            }
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 45%; 
+            background-image: url("../../assets/img/login.png");
+            //background: rgb(248, 120, 120);
+            .logo-img>img {
+                width: 15em;
+                height: 15em;
+                opacity: 0.8;
+            }
+            .logo-text {
+                color: #fff;
+                font-weight: 700;
+                font-size: 1.2em;
+            }
+        }
+        .login-part-02 {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            //justify-content: center;
+            width: 100%;
+            form {
+                margin-bottom: 30px;
+            }
+            @media (min-width: 760px) {
+                width: 55%;
+            }
+            padding: 30px;
+            background: #fff;
+            .login-logo{
+                @media (min-width: 760px) {
+                    display: none;
+                }
+                img{
+                    width: 10em;
+                    height: 10em;
+                }
+            }
+            .login-text{
+                    .login-failed {
+                        color: #ff0000;
+                    }
+                    span {
+                    display: flex;
+                    flex-direction: row;
+                    height: 40%;
+                    font-size: 1.2em;
+                    @media (min-width: 760px) {
+                        margin-top: 40px;
+                        font-size: 2em;
+                    }
+                    color: $text;
+                }
+            }
+            section {
+                margin-top: 40px;
+                width: 95%;
+                .control-label {
+                    color: $text;
+                }
+            }
+        }
+    }
+}
+
+.mt{
+    margin-top: 3rem;
+}

@@ -1,0 +1,127 @@
+.ggd {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #707070;
+
+    .ggdb {
+        padding: 6px;
+        flex: 2 50%;
+        max-width: 50%;
+
+        .grx {
+            display: flex;
+            flex-direction: column;
+            height: 240px;
+            padding: 30px 15px 30px 15px;
+            border-radius: 10px;
+            overflow: hidden;
+            background: white;
+            border: solid 1px #fbd2d29a;
+            -webkit-box-shadow: 6px 6px 10px -11px rgba(253, 154, 154, 0.75);
+            -moz-box-shadow: 6px 6px 10px -11px rgba(253, 154, 154, 0.75);
+            box-shadow: 6px 6px 10px -11px rgba(253, 154, 154, 0.75);
+
+            .gbc {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                line-height: 40px;
+                width: 100%;
+                border-bottom: solid 0.5px #f1acac;
+
+                ._2umId {
+                    display: flex;
+
+                    ._1WliW {
+                        border-radius: 50%;
+                        position: relative;
+                        overflow: hidden;
+
+                        .Qgzj8.gqwaM {
+                            opacity: 1;
+                        }
+
+                        .Qgzj8 {
+                            border-radius: 50%;
+                            opacity: 1;
+                            display: block;
+                            opacity: 0;
+                            position: relative;
+                            transition: opacity 150ms ease-out;
+                            width: 100%;
+                            height: 100%;
+                            z-index: 100;
+                            overflow: hidden;
+                        }
+
+                        ._3ZW2E {
+                            left: 0;
+                            position: absolute;
+                            top: 0;
+                            width: 100%;
+                            height: 100%;
+                            z-index: 1;
+                        }
+                    }
+                }
+
+                .ncnt {
+                    position: relative;
+                    width: 100%;
+                    margin-top: 15px;
+
+                    .nbx {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        line-height: 30px;
+
+                        .gnm {
+                            max-height: 31px;
+                            max-width: 100%;
+                            font-size: 14px;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            overflow: hidden;
+                        }
+
+                        .ltv {
+                            font-size: 12px;
+
+                            time {
+                                color: #058b17;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .gmmb {
+                position: relative;
+                margin-top: 15px;
+
+                .bmx {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    .bms {
+                        font-size: 12px;
+
+                        span:first-of-type {
+                            margin-left: 0;
+                        }
+
+                        span {
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

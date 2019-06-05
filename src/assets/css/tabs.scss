@@ -1,0 +1,43 @@
+@import '../scss/colors';
+._tabs{
+	overflow: hidden;
+  nav{
+	width: 100%;
+	overflow: hidden;
+	ul{
+	  position: relative;
+	  display: flex;
+	  flex-direction: columns;
+	  overflow: hidden;
+	  li{
+		 overflow: hidden;
+	  }
+	  li{
+		.router-link-exact-active{
+			color: $primary;
+		}
+		a{
+		 padding: 5px;
+		 text-decoration: none;
+		 display: flex;
+		 flex-direction: column;
+		 background: #f4f4f4;
+		 line-height: 25px;
+		 color: #ef9292;
+		 &:hover{
+		   color: #ff2121;
+		   //box-shadow: inset 0 4px 2px -2px #ff2121;
+		 }
+		 .fa-user{
+		   font-size: 1.5em;
+		 }
+		 i,span{
+		   width: 80px;
+		   text-align: center;
+		   font-family: 'Saysettha OT';
+		   font-size: 12px;
+		 }
+	  }}
+	}
+  }
+}

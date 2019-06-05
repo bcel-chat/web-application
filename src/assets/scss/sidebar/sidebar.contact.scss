@@ -1,0 +1,108 @@
+@import "@/assets/scss/colors.scss";
+.grc {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    .ltb {
+        font-size: 1em;
+        margin-top: 0.5em;
+        // margin-left: 1.2em;
+        color: $primary;
+    }
+    .ctnlb {
+       
+        .slide{
+            animation-duration: .4s;
+        }
+        .ctl {
+            &:hover{
+                background-color: $hover;
+            }
+            border-radius: 5px;
+            width: 100%;
+            display: flex;
+            padding: 10px 0 10px 10px;
+            cursor: pointer;
+            // border: solid 1px rgb(250, 209, 209);
+            // border-radius: 5px;
+            margin-bottom: 6px;
+            border: solid 1px #fbd2d29a;
+            -webkit-box-shadow: 6px 6px 10px -11px rgba(253, 154, 154, 0.75);
+            -moz-box-shadow: 6px 6px 10px -11px rgba(253, 154, 154, 0.75);
+            box-shadow: 6px 6px 10px -11px rgba(253, 154, 154, 0.75);
+            ._2umId {
+                display: flex;
+                margin-right: 15px;
+
+                ._1WliW {
+                    border-radius: 50%;
+                    position: relative;
+                    overflow: hidden;
+
+                    .Qgzj8.gqwaM {
+                        opacity: 1;
+                    }
+
+                    .Qgzj8 {
+                        border-radius: 50%;
+                        opacity: 1;
+                        display: block;
+                        opacity: 0;
+                        position: relative;
+                        transition: opacity 150ms ease-out;
+                        width: 100%;
+                        height: 100%;
+                        z-index: 100;
+                        object-fit: cover;
+                    }
+
+                    ._3ZW2E {
+                        left: 0;
+                        position: absolute;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        z-index: 1;
+                    }
+                }
+            }
+
+            .cinf {
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                border-right: solid 0.5px #e9e9e9;
+                padding-right: 10px;
+            }
+
+            .cinfb {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.cl-g {
+    color: $primary;
+}
+
+.cl-r {
+    color: #99D2A2;
+}
+
+.tpt {
+    font-size: 0.9em;
+}
+
+.tptd {
+    font-size: 0.7em;
+}
+
+._clr {
+    color: $primary;
+}

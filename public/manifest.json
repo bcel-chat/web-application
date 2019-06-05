@@ -1,0 +1,20 @@
+{
+  "name": "BCEL Connect",
+  "short_name": "BCEL Connect",
+  "icons": [
+    {
+      "src": "./img/bcel.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/bcel.png",
+      "sizes": "912x912",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#f75e5e"
+}

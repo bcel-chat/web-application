@@ -1,0 +1,168 @@
+.pitpy-profile {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    header {
+        display: flex;
+        align-items: flex-start;
+        height: 200px;
+        background: rgb(247,132,132);
+        background: linear-gradient(0deg, rgba(247,132,132,1) 0%, rgba(240,46,46,1) 0%, rgba(247,130,130,1) 100%);
+
+        .cover-box {
+            width: 100%;
+            height: 100%;
+            opacity: .7;
+            .cover {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .arrow-box {
+            position: absolute;
+            display: flex;
+            margin: 0.8em 1em;
+            align-items: center;
+            justify-content: center;
+
+            .arrow {
+                display: flex;
+                align-items: center;
+                margin-right: 1.1em;
+                cursor: pointer;
+                color: #fff;
+                width: 24px;
+
+                i {
+                    animation-duration: .3s;
+                    font-size: 24px;
+                    -ms-transform: rotate(90deg);
+                    /* IE 9 */
+                    -webkit-transform: rotate(90deg);
+                    /* Safari 3-8 */
+                    transform: rotate(90deg);
+                }
+            }
+
+            .txt {
+                text-align: center;
+                margin-top: .2em;
+                color: #fff;
+            }
+        }
+
+        .pic-box {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            top: 5em;
+            .pro-pic {
+                width: 14em;
+                height: 14em;
+                border: solid 3px #fff;
+                border-radius: 50%;
+                background-color: #fff;
+                object-fit: cover;
+                -webkit-box-shadow: 0px 0px 10px -1px rgba(228, 31, 31, 1);
+                -moz-box-shadow: 0px 0px 10px -1px rgba(228, 31, 31, 1);
+                box-shadow: 0px 0px 10px -1px rgba(228, 31, 31, 1);
+            }
+        }
+    }
+
+    .spc {
+        height: 100px;
+    }
+
+    .detail-box{
+        position: relative;
+        height: calc(100vh - 300px);
+        overflow: scroll;
+        .name-box {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: flex-end;
+            width: 100%;
+            margin: 1rem 0 1.4rem 0;
+            
+            .name-content {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                font-family: 'Segoe UI';
+    
+                .uname {
+                    font-size: 1.063em;
+                    color: #CE6868;
+                    margin-bottom: 5px;
+                }
+    
+                .uabout {
+                    font-size: .875em;
+                    color: #5B5B5B;
+                }
+            }
+        }
+    
+        .udetail-box {
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: flex-end;
+            width: 96%;
+            height: 120px;
+    
+            .udetail-content:last-child {
+                height: 70%;
+            }
+    
+            .udetail-content {
+                display: flex;
+                flex-direction: column;
+                font-family: 'Segoe UI';
+                height: 100%;
+                // margin-bottom: 1em;
+                /* border-bottom: solid 1px #F6E1E1; */
+                margin-top: 1rem;
+                // margin: 0 5px 1rem 5px;
+                border-radius: 10px;
+                border: solid 1px #fbd2d29a;
+                -webkit-box-shadow: 6px 6px 10px -10px rgba(253, 154, 154, 0.75);
+                -moz-box-shadow: 6px 6px 10px -10px rgba(253, 154, 154, 0.75);
+                box-shadow: 6px 6px 10px -10px rgba(253, 154, 154, 0.75);
+
+                width: 100%;
+                padding: 14px 30px 10px 30px;
+    
+                .udetail-title {
+                    margin-bottom: 14px;
+                    font-size: .875em;
+                    color: #CE6868;
+                }
+    
+                .udetail {
+                    display: flex;
+                    flex-flow: row wrap;
+                    align-items: center;
+                    margin-left: 10px;
+    
+                    .detail {
+                        font-size: 1.063em;
+                        width: 100%;
+                        color: #5B5B5B;
+    
+                        span {
+                            font-size: .875em;
+                            color: #CE6868;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+._1GX8_ {
+    position: absolute;
+    background: #e5d5d5;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.YUoyu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(https://web.whatsapp.com/img/8a055527b27b887521a9f084497d8879.png);
+    background-repeat: repeat repeat;
+    height: 100%;
+    width: 100%;
+    opacity: 0.06;
+}
+
+._3zJZ2 {
+    -webkit-flex: 1 1 0;
+    flex: 1 1 0;
+    -webkit-order: 2;
+    order: 2;
+    position: relative;
+    z-index: 1;
+}
+
+._2nmDZ {
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    transition: background .3s ease-out .1s;
+    width: 100%;
+    z-index: 100;
+}
+
+.grGJn {
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-order: 2;
+    order: 2;
+}
