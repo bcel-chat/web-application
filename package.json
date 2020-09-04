@@ -25,7 +25,7 @@
     "vue": "^2.6.6",
     "vue-async-computed": "^3.6.1",
     "vue-lodash": "^2.0.0",
-    "vue-moment": "^4.0.0",
+    "vue-moment": "^4.1.0",
     "vue-router": "^3.0.1",
     "vue-signature-pad": "^1.1.9-beta.1",
     "vuejs-datepicker": "^1.5.4",
